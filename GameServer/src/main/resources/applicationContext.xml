@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="configCenter" class="com.a3fun.pudding.zookeeper.ConfigCenter" destroy-method="close">
+        <constructor-arg name="gameServerId" value="GAME_SERVER_ID" />
+        <constructor-arg name="zkConnectString" value="#{serverConfigManager.zookeeperConfig.connectString}" />
+        <constructor-arg name="base" value="#{serverConfigManager.zookeeperConfig.configPath}" />
+    </bean>
+
+    <bean id="configService" class="com.a3fun.pudding.config.service.ConfigServiceImpl">
+        <property name="configPackages">
+            <list>
+                <value>com.a3fun.pudding.config</value>
+            </list>
+        </property>
+    </bean>
+</beans>
