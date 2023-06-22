@@ -16,5 +16,4 @@ public @interface Config {
 
     Class<? extends AbstractMeta> metaClass() default DefaultMeta.class;
 
-    boolean autoGen() default false;
 }

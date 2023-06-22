@@ -1,0 +1,14 @@
+<root>
+	<topmodule name="Cfg.Pudding"/>
+
+	<patch name="cn"/>
+	<patch name="en"/>
+
+	<group name="c" default="1"/> client
+	<group name="s" default="1"/> server
+	<group name="e" default="1"/> editor
+	
+	<import name="../Datas/__meta__.xml"/>
+
+	<service name="client" manager="Tables" group="c"/>
+</root>

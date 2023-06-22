@@ -1,0 +1,14 @@
+<root>
+	<topmodule name="com.a3fun.pudding.conf.data"/>
+
+	<patch name="cn"/>
+	<patch name="en"/>
+
+	<group name="c" default="1"/> client
+	<group name="s" default="1"/> server
+	<group name="e" default="1"/> editor
+	
+	<import name="../Datas/__meta__.xml"/>
+
+	<service name="server" manager="Tables" group="s"/>
+</root>

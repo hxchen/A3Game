@@ -1,0 +1,578 @@
+{
+  "1": {
+    "id": 1,
+    "fishName": "通用小鱼",
+    "fishRes": "",
+    "fishIcon": 0,
+    "fishDes": "雷达中的通用鱼",
+    "fishLong": [],
+    "fishWeight": [],
+    "fishLive": 0,
+    "swimSpeed": 5,
+    "fishShape": 1,
+    "fishType": 0,
+    "fishSpeed": 0,
+    "fishAtk": 0,
+    "fishAgi": 0,
+    "rewardExp": 0,
+    "rewardToken": 0,
+    "rewardScore": 0
+  },
+  "2": {
+    "id": 2,
+    "fishName": "通用中鱼",
+    "fishRes": "",
+    "fishIcon": 0,
+    "fishDes": "雷达中的通用鱼",
+    "fishLong": [],
+    "fishWeight": [],
+    "fishLive": 0,
+    "swimSpeed": 3,
+    "fishShape": 2,
+    "fishType": 0,
+    "fishSpeed": 0,
+    "fishAtk": 0,
+    "fishAgi": 0,
+    "rewardExp": 0,
+    "rewardToken": 0,
+    "rewardScore": 0
+  },
+  "3": {
+    "id": 3,
+    "fishName": "通用大鱼",
+    "fishRes": "",
+    "fishIcon": 0,
+    "fishDes": "雷达中的通用鱼",
+    "fishLong": [],
+    "fishWeight": [],
+    "fishLive": 0,
+    "swimSpeed": 2,
+    "fishShape": 3,
+    "fishType": 0,
+    "fishSpeed": 0,
+    "fishAtk": 0,
+    "fishAgi": 0,
+    "rewardExp": 0,
+    "rewardToken": 0,
+    "rewardScore": 0
+  },
+  "4": {
+    "id": 4,
+    "fishName": "通用超大鱼",
+    "fishRes": "",
+    "fishIcon": 0,
+    "fishDes": "雷达中的通用鱼",
+    "fishLong": [],
+    "fishWeight": [],
+    "fishLive": 0,
+    "swimSpeed": 8,
+    "fishShape": 4,
+    "fishType": 0,
+    "fishSpeed": 0,
+    "fishAtk": 0,
+    "fishAgi": 0,
+    "rewardExp": 0,
+    "rewardToken": 0,
+    "rewardScore": 0
+  },
+  "5": {
+    "id": 5,
+    "fishName": "额斑刺蝶鱼",
+    "fishRes": "",
+    "fishIcon": 0,
+    "fishDes": "来自深海的小鱼",
+    "fishLong": [
+      7,
+      20
+    ],
+    "fishWeight": [
+      0.5,
+      1
+    ],
+    "fishLive": 1,
+    "swimSpeed": 3,
+    "fishShape": 1,
+    "fishType": 1,
+    "fishSpeed": 150,
+    "fishAtk": 100,
+    "fishAgi": 180,
+    "rewardExp": 30,
+    "rewardToken": 60,
+    "rewardScore": 1
+  },
+  "6": {
+    "id": 6,
+    "fishName": "蝴蝶鱼",
+    "fishRes": "",
+    "fishIcon": 0,
+    "fishDes": "来自深海的小鱼",
+    "fishLong": [
+      5,
+      15
+    ],
+    "fishWeight": [
+      0.1,
+      0.3
+    ],
+    "fishLive": 1,
+    "swimSpeed": 3,
+    "fishShape": 1,
+    "fishType": 1,
+    "fishSpeed": 150,
+    "fishAtk": 100,
+    "fishAgi": 180,
+    "rewardExp": 30,
+    "rewardToken": 60,
+    "rewardScore": 1
+  },
+  "7": {
+    "id": 7,
+    "fishName": "粒突箱鲀",
+    "fishRes": "",
+    "fishIcon": 0,
+    "fishDes": "来自深海的小鱼",
+    "fishLong": [
+      6,
+      16
+    ],
+    "fishWeight": [
+      0.5,
+      0.8
+    ],
+    "fishLive": 0,
+    "swimSpeed": 3,
+    "fishShape": 1,
+    "fishType": 2,
+    "fishSpeed": 163,
+    "fishAtk": 112,
+    "fishAgi": 194,
+    "rewardExp": 46,
+    "rewardToken": 92,
+    "rewardScore": 2
+  },
+  "8": {
+    "id": 8,
+    "fishName": "灯塔水母",
+    "fishRes": "",
+    "fishIcon": 0,
+    "fishDes": "来自深海的小鱼",
+    "fishLong": [
+      10,
+      24
+    ],
+    "fishWeight": [
+      0.6,
+      1.2
+    ],
+    "fishLive": 0,
+    "swimSpeed": 3,
+    "fishShape": 1,
+    "fishType": 1,
+    "fishSpeed": 153,
+    "fishAtk": 102,
+    "fishAgi": 184,
+    "rewardExp": 31,
+    "rewardToken": 62,
+    "rewardScore": 1
+  },
+  "9": {
+    "id": 9,
+    "fishName": "灯笼鱼",
+    "fishRes": "",
+    "fishIcon": 0,
+    "fishDes": "来自深海的小鱼",
+    "fishLong": [
+      5,
+      16
+    ],
+    "fishWeight": [
+      0.4,
+      0.9
+    ],
+    "fishLive": 0,
+    "swimSpeed": 3,
+    "fishShape": 1,
+    "fishType": 1,
+    "fishSpeed": 156,
+    "fishAtk": 104,
+    "fishAgi": 187,
+    "rewardExp": 31,
+    "rewardToken": 62,
+    "rewardScore": 1
+  },
+  "10": {
+    "id": 10,
+    "fishName": "蓝环章鱼",
+    "fishRes": "",
+    "fishIcon": 0,
+    "fishDes": "来自深海的小鱼",
+    "fishLong": [
+      10,
+      24
+    ],
+    "fishWeight": [
+      0.6,
+      1.4
+    ],
+    "fishLive": 0,
+    "swimSpeed": 3,
+    "fishShape": 1,
+    "fishType": 3,
+    "fishSpeed": 199,
+    "fishAtk": 146,
+    "fishAgi": 231,
+    "rewardExp": 64,
+    "rewardToken": 128,
+    "rewardScore": 3
+  },
+  "11": {
+    "id": 11,
+    "fishName": "苏眉鱼",
+    "fishRes": "",
+    "fishIcon": 0,
+    "fishDes": "来自深海的小鱼",
+    "fishLong": [
+      50,
+      200
+    ],
+    "fishWeight": [
+      10,
+      50
+    ],
+    "fishLive": 0,
+    "swimSpeed": 3,
+    "fishShape": 2,
+    "fishType": 1,
+    "fishSpeed": 216,
+    "fishAtk": 238,
+    "fishAgi": 281,
+    "rewardExp": 62,
+    "rewardToken": 124,
+    "rewardScore": 2
+  },
+  "12": {
+    "id": 12,
+    "fishName": "金枪鱼",
+    "fishRes": "",
+    "fishIcon": 0,
+    "fishDes": "来自深海的小鱼",
+    "fishLong": [
+      100,
+      300
+    ],
+    "fishWeight": [
+      50,
+      100
+    ],
+    "fishLive": 0,
+    "swimSpeed": 3,
+    "fishShape": 2,
+    "fishType": 1,
+    "fishSpeed": 216,
+    "fishAtk": 238,
+    "fishAgi": 281,
+    "rewardExp": 62,
+    "rewardToken": 124,
+    "rewardScore": 2
+  },
+  "13": {
+    "id": 13,
+    "fishName": "小丑炮弹鱼",
+    "fishRes": "",
+    "fishIcon": 0,
+    "fishDes": "来自深海的小鱼",
+    "fishLong": [
+      10,
+      50
+    ],
+    "fishWeight": [
+      5,
+      20
+    ],
+    "fishLive": 0,
+    "swimSpeed": 3,
+    "fishShape": 2,
+    "fishType": 3,
+    "fishSpeed": 260,
+    "fishAtk": 282,
+    "fishAgi": 324,
+    "rewardExp": 126,
+    "rewardToken": 252,
+    "rewardScore": 6
+  },
+  "14": {
+    "id": 14,
+    "fishName": "灯塔水母（复用中）",
+    "fishRes": "",
+    "fishIcon": 0,
+    "fishDes": "来自深海的小鱼",
+    "fishLong": [
+      50,
+      200
+    ],
+    "fishWeight": [
+      8,
+      30
+    ],
+    "fishLive": 0,
+    "swimSpeed": 3,
+    "fishShape": 2,
+    "fishType": 1,
+    "fishSpeed": 228,
+    "fishAtk": 251,
+    "fishAgi": 289,
+    "rewardExp": 64,
+    "rewardToken": 128,
+    "rewardScore": 2
+  },
+  "15": {
+    "id": 15,
+    "fishName": "蝴蝶鱼（复用中体型）",
+    "fishRes": "",
+    "fishIcon": 0,
+    "fishDes": "来自深海的小鱼",
+    "fishLong": [
+      10,
+      50
+    ],
+    "fishWeight": [
+      10,
+      25
+    ],
+    "fishLive": 1,
+    "swimSpeed": 3,
+    "fishShape": 2,
+    "fishType": 1,
+    "fishSpeed": 232,
+    "fishAtk": 255,
+    "fishAgi": 292,
+    "rewardExp": 65,
+    "rewardToken": 130,
+    "rewardScore": 2
+  },
+  "16": {
+    "id": 16,
+    "fishName": "大龙虾",
+    "fishRes": "",
+    "fishIcon": 0,
+    "fishDes": "来自深海的小鱼",
+    "fishLong": [
+      30,
+      80
+    ],
+    "fishWeight": [
+      5,
+      20
+    ],
+    "fishLive": 0,
+    "swimSpeed": 3,
+    "fishShape": 2,
+    "fishType": 2,
+    "fishSpeed": 250,
+    "fishAtk": 274,
+    "fishAgi": 307,
+    "rewardExp": 99,
+    "rewardToken": 198,
+    "rewardScore": 4
+  },
+  "17": {
+    "id": 17,
+    "fishName": "灯塔水母",
+    "fishRes": "",
+    "fishIcon": 0,
+    "fishDes": "来自深海的小鱼",
+    "fishLong": [
+      500,
+      1000
+    ],
+    "fishWeight": [
+      30,
+      50
+    ],
+    "fishLive": 0,
+    "swimSpeed": 3,
+    "fishShape": 3,
+    "fishType": 1,
+    "fishSpeed": 300,
+    "fishAtk": 336,
+    "fishAgi": 384,
+    "rewardExp": 156,
+    "rewardToken": 312,
+    "rewardScore": 3
+  },
+  "18": {
+    "id": 18,
+    "fishName": "魔鬼鱼",
+    "fishRes": "",
+    "fishIcon": 0,
+    "fishDes": "来自深海的小鱼",
+    "fishLong": [
+      100,
+      500
+    ],
+    "fishWeight": [
+      400,
+      1000
+    ],
+    "fishLive": 0,
+    "swimSpeed": 3,
+    "fishShape": 3,
+    "fishType": 3,
+    "fishSpeed": 340,
+    "fishAtk": 376,
+    "fishAgi": 424,
+    "rewardExp": 312,
+    "rewardToken": 624,
+    "rewardScore": 9
+  },
+  "19": {
+    "id": 19,
+    "fishName": "皇帝蟹",
+    "fishRes": "",
+    "fishIcon": 0,
+    "fishDes": "来自深海的小鱼",
+    "fishLong": [
+      30,
+      50
+    ],
+    "fishWeight": [
+      10,
+      30
+    ],
+    "fishLive": 0,
+    "swimSpeed": 3,
+    "fishShape": 3,
+    "fishType": 2,
+    "fishSpeed": 315,
+    "fishAtk": 352,
+    "fishAgi": 400,
+    "rewardExp": 235,
+    "rewardToken": 470,
+    "rewardScore": 6
+  },
+  "20": {
+    "id": 20,
+    "fishName": "苏眉鱼（复用大体型）",
+    "fishRes": "",
+    "fishIcon": 0,
+    "fishDes": "来自深海的小鱼",
+    "fishLong": [
+      100,
+      300
+    ],
+    "fishWeight": [
+      50,
+      100
+    ],
+    "fishLive": 0,
+    "swimSpeed": 3,
+    "fishShape": 3,
+    "fishType": 1,
+    "fishSpeed": 305,
+    "fishAtk": 342,
+    "fishAgi": 390,
+    "rewardExp": 157,
+    "rewardToken": 314,
+    "rewardScore": 3
+  },
+  "21": {
+    "id": 21,
+    "fishName": "海龟",
+    "fishRes": "",
+    "fishIcon": 0,
+    "fishDes": "来自深海的小鱼",
+    "fishLong": [
+      200,
+      250
+    ],
+    "fishWeight": [
+      200,
+      300
+    ],
+    "fishLive": 0,
+    "swimSpeed": 3,
+    "fishShape": 3,
+    "fishType": 3,
+    "fishSpeed": 350,
+    "fishAtk": 387,
+    "fishAgi": 437,
+    "rewardExp": 314,
+    "rewardToken": 628,
+    "rewardScore": 9
+  },
+  "22": {
+    "id": 22,
+    "fishName": "剑鱼",
+    "fishRes": "",
+    "fishIcon": 0,
+    "fishDes": "来自深海的小鱼",
+    "fishLong": [
+      300,
+      500
+    ],
+    "fishWeight": [
+      180,
+      250
+    ],
+    "fishLive": 0,
+    "swimSpeed": 3,
+    "fishShape": 3,
+    "fishType": 1,
+    "fishSpeed": 315,
+    "fishAtk": 353,
+    "fishAgi": 403,
+    "rewardExp": 158,
+    "rewardToken": 316,
+    "rewardScore": 3
+  },
+  "23": {
+    "id": 23,
+    "fishName": "大王乌贼",
+    "fishRes": "",
+    "fishIcon": 0,
+    "fishDes": "来自深海的大鱼",
+    "fishLong": [
+      800,
+      2000
+    ],
+    "fishWeight": [
+      800,
+      1500
+    ],
+    "fishLive": 0,
+    "swimSpeed": 5,
+    "fishShape": 4,
+    "fishType": 4,
+    "fishSpeed": 330,
+    "fishAtk": 400,
+    "fishAgi": 420,
+    "rewardExp": 400,
+    "rewardToken": 800,
+    "rewardScore": 16
+  },
+  "24": {
+    "id": 24,
+    "fishName": "海狼鱼",
+    "fishRes": "",
+    "fishIcon": 0,
+    "fishDes": "来自深海的大鱼",
+    "fishLong": [
+      800,
+      1000
+    ],
+    "fishWeight": [
+      500,
+      600
+    ],
+    "fishLive": 0,
+    "swimSpeed": 5,
+    "fishShape": 4,
+    "fishType": 4,
+    "fishSpeed": 330,
+    "fishAtk": 400,
+    "fishAgi": 420,
+    "rewardExp": 400,
+    "rewardToken": 800,
+    "rewardScore": 16
+  }
+}

@@ -1,0 +1,3 @@
+<module name="">
+    <table name="fish" value="fish_set" define_from_file="true" group="e,c,s" input="fish.xlsx"/>
+</module>
