@@ -1,0 +1,8 @@
+server:
+  port: 8080
+config:
+  dir: meta
+  packages: com.a3fun.pudding.config
+spring:
+  application:
+    name: GameServer
