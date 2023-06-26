@@ -6,7 +6,7 @@ import com.a3fun.core.config.model.AbstractMeta;
 import com.a3fun.core.config.model.ConfigFormat;
 import com.a3fun.core.config.model.MetaServerType;
 import com.a3fun.core.config.model.VoidMeta;
-import com.a3fun.pudding.util.JavaUtils;
+import com.a3fun.core.util.JavaUtils;
 import com.a3fun.pudding.util.JsonUtils;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;

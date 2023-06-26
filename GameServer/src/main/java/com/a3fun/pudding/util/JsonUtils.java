@@ -4,6 +4,7 @@ import com.a3fun.core.common.IntEnum;
 import com.a3fun.core.common.IntEnumDeserializer;
 import com.a3fun.core.common.IntEnumKeySerializer;
 import com.a3fun.core.common.IntEnumSerializer;
+import com.a3fun.core.util.JavaUtils;
 import com.alibaba.fastjson.JSONObject;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JsonNode;

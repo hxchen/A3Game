@@ -3,6 +3,7 @@ package com.a3fun.pudding.util;
 
 import com.a3fun.core.common.IdEnum;
 import com.a3fun.core.common.IntEnum;
+import com.a3fun.core.util.JavaUtils;
 
 import java.lang.reflect.Array;
 import java.lang.reflect.Method;
