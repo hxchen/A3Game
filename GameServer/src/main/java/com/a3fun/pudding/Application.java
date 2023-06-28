@@ -1,5 +1,6 @@
 package com.a3fun.pudding;
 
+import com.a3fun.core.threads.MainWorker;
 import com.a3fun.core.world.WorldScheduler;
 import com.a3fun.pudding.service.WorldService;
 import org.springframework.context.ApplicationContext;
@@ -32,7 +33,10 @@ public class Application implements ApplicationContextAware {
     }
 
     public static void initRunTime() {
-        WorldService worldService = (WorldService) getBean(WorldService.class);
+        MainWorker mainWorker = getBean(MainWorker.class);
+        mainWorker.start();
+
+        WorldService worldService = getBean(WorldService.class);
         worldService.init();
     }
 

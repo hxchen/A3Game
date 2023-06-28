@@ -41,7 +41,8 @@ public class WorldWorker implements Runnable {
     }
 
     public void afterSchedule() {
-        state.compareAndSet(INIT, RUNNABLE);
+        boolean afterScheduleSet = state.compareAndSet(INIT, RUNNABLE);
+        log.info(afterScheduleSet ? "afterScheduleSet is true" : "afterScheduleSet is false");
     }
 
     public boolean isDone() {

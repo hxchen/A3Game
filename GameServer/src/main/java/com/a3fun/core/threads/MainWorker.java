@@ -3,6 +3,10 @@ package com.a3fun.core.threads;
 import com.a3fun.core.world.WorldWorker;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
+
+/**
+ * 主线程 由Application启动
+ */
 @Slf4j
 @Component
 public class MainWorker extends SingleThreadTaskWorker<Object>{

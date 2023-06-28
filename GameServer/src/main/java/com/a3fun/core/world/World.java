@@ -31,7 +31,10 @@ public class World {
     }
 
 
-
+    /**
+     * tick 方法由WorldScheduler->WorldWorker调用
+     * @param now
+     */
     public void tick(long now){
 
         for (AbstractTicker<?> ticker : tickers) {
