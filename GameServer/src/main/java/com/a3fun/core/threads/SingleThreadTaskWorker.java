@@ -91,6 +91,11 @@ public abstract class SingleThreadTaskWorker<T> implements Runnable {
         this.state = STATE_START;
         exec.execute(new NamedRunnable(name, this));
     }
+
+    /**
+     * 添加任务
+     * @param task
+     */
     protected void addTask(T task){
         taskQueue.add(task);
         if (this.state == STATE_START) {

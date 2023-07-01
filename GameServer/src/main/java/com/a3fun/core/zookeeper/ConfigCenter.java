@@ -81,18 +81,20 @@ public class ConfigCenter {
         return rtn;
     }
 
+    /**
+     * 通过本机IP地址获取当前进程对应的GameServer配置
+     * @return
+     */
     private GameServerConfig findCurrentGameServerConfigByIP() {
         localhostIpList = OsUtil.getLocalIpList(true);
-        log.debug("ZkConfig本机IpList：" + localhostIpList.toString());
+        log.debug("ZkConfig本机IpList：" + localhostIpList);
 
         for (GameServerConfig gameServer : config.getGameServers().values()) {
-            return gameServer;
-//            if (localhostIpList.contains(gameServer.getRpcIp())) {
-//                log.debug("ZkConfig 从IP地址" + gameServer.getRpcIp() + "获取CurrentGameServerConfig：" + gameServer);
-//                return gameServer;
-//            }
+            if (localhostIpList.contains(gameServer.getGameIp())) {
+                log.debug("ZkConfig 从IP地址" + gameServer.getGameIp() + "获取CurrentGameServerConfig：" + gameServer);
+                return gameServer;
+            }
         }
-
         return null;
     }
 
@@ -103,4 +105,11 @@ public class ConfigCenter {
         zk.close();
     }
 
+    /**
+     * 获取当前进程对应的GameServer配置
+     * @return
+     */
+    public GameServerConfig getGameServerConfig() {
+        return currentGameServerConfig;
+    }
 }

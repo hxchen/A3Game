@@ -2,6 +2,10 @@ package com.a3fun.pudding;
 
 import com.a3fun.core.threads.MainWorker;
 import com.a3fun.core.world.WorldScheduler;
+import com.a3fun.core.zookeeper.ConfigCenter;
+import com.a3fun.core.zookeeper.GameServerConfig;
+import com.a3fun.net.NettyServer;
+import com.a3fun.pudding.net.GameServerInitializer;
 import com.a3fun.pudding.service.WorldService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
@@ -14,9 +18,12 @@ public class Application implements ApplicationContextAware {
     private static ApplicationContext applicationContext;
 
     private static WorldScheduler worldScheduler;
+    private static ConfigCenter configCenter;
+
     @Override
     public void setApplicationContext(ApplicationContext applicationContext){
         Application.applicationContext = applicationContext;
+        configCenter = getBean(ConfigCenter.class);
     }
     public  ApplicationContext getApplicationContext(){
         return applicationContext;
@@ -43,6 +50,16 @@ public class Application implements ApplicationContextAware {
     public static void initWorldScheduler(){
         worldScheduler = new WorldScheduler();
         worldScheduler.start();
+    }
+
+    /**
+     * 启动Netty
+     */
+    public static void launchNettyServer() {
+        GameServerConfig gameServerConfig = configCenter.getGameServerConfig();
+        NettyServer nettyServer = new NettyServer("game server", gameServerConfig.getGameIp(), gameServerConfig.getGamePort(), 8, new GameServerInitializer());
+        nettyServer.start();
+        PuddingAppCleaner.getInstance().addNettyServer(nettyServer);
     }
 
 }

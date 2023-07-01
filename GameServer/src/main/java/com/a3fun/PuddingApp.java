@@ -15,6 +15,8 @@ public class PuddingApp {
 
         Application.initWorldScheduler();
 
+        Application.launchNettyServer();
+
         regShutdownHook();
 
     }
