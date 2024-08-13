@@ -38,7 +38,6 @@ public class World {
     public void tick(long now){
 
         for (AbstractTicker<?> ticker : tickers) {
-            LOGGER.info(Thread.currentThread().getName() + ticker + "执行tick");
             ticker.tick(now);
         }
 

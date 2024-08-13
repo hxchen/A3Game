@@ -20,7 +20,6 @@ public class WorldWorker implements Runnable {
     }
     @Override
     public void run() {
-        log.info("World worker is running ...");
         state.set(RUNNING);
         try{
             worldService.getWorld().tick(System.currentTimeMillis());
@@ -42,7 +41,6 @@ public class WorldWorker implements Runnable {
 
     public void afterSchedule() {
         boolean afterScheduleSet = state.compareAndSet(INIT, RUNNABLE);
-        log.info(afterScheduleSet ? "afterScheduleSet is true" : "afterScheduleSet is false");
     }
 
     public boolean isDone() {

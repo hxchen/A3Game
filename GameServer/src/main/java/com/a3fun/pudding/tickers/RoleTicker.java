@@ -15,7 +15,7 @@ public class RoleTicker extends AbstractTicker<Role> {
 
     @Override
     protected void tick(Role role, long now) {
-        log.info("处理角色：" + role);
+//        log.info("处理角色：" + role);
     }
 
     @Override

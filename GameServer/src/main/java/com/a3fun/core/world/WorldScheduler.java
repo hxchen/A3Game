@@ -26,7 +26,6 @@ public class WorldScheduler extends SingleThreadWorker {
     protected void execute() throws InterruptedException {
         if (worldWorker.canSchedule()){
             worldWorker.beforeSchedule();
-            log.info(Thread.currentThread().getName() + "添加调度：" + worldWorker);
             mainWorker.putWorldWorker(worldWorker);
             worldWorker.afterSchedule();
         }

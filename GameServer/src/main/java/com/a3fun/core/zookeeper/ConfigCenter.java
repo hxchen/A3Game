@@ -95,7 +95,7 @@ public class ConfigCenter {
                 return gameServer;
             }
         }
-        return null;
+        throw new RuntimeException("获取不到服务器的配置信息");
     }
 
     /**

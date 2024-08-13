@@ -13,7 +13,7 @@ public class SpeakTicker extends AbstractTicker<Speak> {
 
     @Override
     protected void tick(Speak speak, long now) {
-        log.info("Speak ticker: " + speak);
+//        log.info("Speak ticker: " + speak);
     }
 
     @Override

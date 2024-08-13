@@ -10,6 +10,7 @@ import java.util.List;
 public class GameServerConfig extends ZkConfig{
     private int gameServerId;
     private MySQLConfig mySQLConfig;
+    private MongoDBConfig mongoDBConfig;
     private List<IZkGameServerConfigListener> listeners;
 
     private String gameIp;
@@ -21,6 +22,7 @@ public class GameServerConfig extends ZkConfig{
         this.gameServerId = gameServerId;
         this.listeners = listeners;
         this.mySQLConfig = new MySQLConfig(zk, this.getZkPath()+"/MySql");
+        this.mongoDBConfig = new MongoDBConfig(zk, this.getZkPath()+"/MongoDB");
         // 从ZK中读取配置--game_ip
 //        this.getDataAndWatchNode(this.getZkPath() + "/game_ip", (path, data) -> {
 //            log.info("GameServerConfig dataChanged path:{}, data:{}", path, data);

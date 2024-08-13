@@ -19,7 +19,6 @@ public class MainWorker extends SingleThreadTaskWorker<Object>{
     }
     @Override
     protected void execute(Object task) {
-        log.info(Thread.currentThread().getName() + "    Main worker execute");
         if (task instanceof WorldWorker){
             WorldWorker worker = (WorldWorker) task;
             worker.run();
