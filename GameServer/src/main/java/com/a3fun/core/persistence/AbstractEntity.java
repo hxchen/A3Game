@@ -1,14 +1,17 @@
 package com.a3fun.core.persistence;
 
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.io.Serializable;
 import java.util.Objects;
 
 public abstract class AbstractEntity implements IPersistable<Long>, Serializable {
-    @Data
+    @Getter
+    @Setter
     protected int db = -1;
-    @Data
+    @Getter
+    @Setter
     protected int  currentServerId = -1;
 
     protected int hashCode(Object... objects) {
